@@ -10,6 +10,7 @@ InterviewList.js: Component for displaying interview details.
 ... (other components as needed)
 App.js: Main component rendering other components and defining the application structure.
 index.js: Entry point for rendering the App component into the DOM.
+
 Back-end (Spring Boot):
 
 controller: Folder containing REST controller classes.
