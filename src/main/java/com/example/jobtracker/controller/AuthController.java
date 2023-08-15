@@ -1,7 +1,6 @@
-package com.example.jobtracker.controller;
-
 import com.example.jobtracker.model.User;
 import com.example.jobtracker.service.UserService;
+import com.example.jobtracker.model.RegisterRequest;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -35,6 +34,6 @@ public class AuthController {
 
         return ResponseEntity.status(HttpStatus.CREATED).build();
     }
-
+    
     // Other authentication methods like login can be added here
 }
